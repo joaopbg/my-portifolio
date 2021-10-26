@@ -1,0 +1,15 @@
+.custom-brand{
+  font-family: 'Comfortaa', cursive;
+  display: none;
+}
+.navbar-brand:hover{
+  .custom-brand{
+    transition: 0.5s;
+    display: inline-block;
+  }
+
+}
+
+.nav-to-right{
+  margin-left: auto;
+}
