@@ -1,0 +1,45 @@
+.custom-brand{
+  font-family: 'Comfortaa', cursive;
+  font-size: 26px;
+  color:#fff;
+
+ }
+ .navbar-customs {
+   @media (min-width: 768px) {
+     height: 70px;
+   }
+   background-color: rgba(0, 0, 0, 0.788);
+ }
+ div > ul > li > a {
+   color:#fff;
+ }
+ div > ul > li{
+   @media (max-width: 768px) {
+     display: flex;
+     justify-content: center;
+     padding: 10px;
+   }
+ }
+
+ .test {
+   @media (min-width: 578px) {
+     justify-content: flex-end;
+   }
+
+ }
+
+ .nav-item {
+   @media (min-width: 768px) {
+     padding: 20px;
+   }
+   padding: 0px;
+   font-family: 'Comfortaa', cursive;
+ }
+ .nav-item:hover {
+
+ }
+ .collapse-icon{
+   color: white;
+ }
+
+
