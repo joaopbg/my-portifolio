@@ -1,1 +1,29 @@
+.main{
+  height: 37em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main > h1 , .main > h3, .main > h5 {
+  font-family: 'Comfortaa', cursive;
+  color: white;
+}
+.main > h1 {
+  font-size: 8vw;
+  padding: 1vw;
+}
+
+.main > h3 {
+  font-size: 2vw;
+  padding: 1vw;
+}
+
+.about{
+  padding: 25px;
+  width: 100%;
+  background: #fff;
+  font-family: 'Comfortaa', cursive;
+}
 
